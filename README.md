@@ -6,7 +6,7 @@ See https://arxiv.org/abs/1906.00446
 
 <p>In the paper, the authors concatenate layers at multiple resolutions, similar to a U-net. The main difference is an explicit latent space. Here, they use the network as a VAE, by generating samples from in the latent space and upsampling.
   </p>
-<p>The network itself can be repurposed for many image processing tasks: for example image restoration or image segmentation - or any task that starts with an input image and outputs some target image.</p>
+<p>The network itself can be repurposed for many image processing tasks: for example image restoration, style transfer, or image segmentation - or any task that starts with an input image and outputs some target image.</p>
 <h2>Usage</h2>
 <h5>File Structure</h5>
 <p>Place original images in path data/originals</p>
