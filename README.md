@@ -11,6 +11,7 @@ See https://arxiv.org/abs/1906.00446
 <h5>File Structure</h5>
 <p>Place original images in path data/originals</p>
 <p>Place target images in path data/targets</p>
+<p>Run</p>
 ```
 python vq_train.py
 ```
