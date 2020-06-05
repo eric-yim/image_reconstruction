@@ -11,7 +11,22 @@ See https://arxiv.org/abs/1906.00446
 <h5>File Structure</h5>
 <p>Place original images in path data/originals</p>
 <p>Place target images in path data/targets</p>
-<p>Run</p>
+<p>originals and targets must have the same name for the train file to know matching pairs.</p>
+<h5>Train</h5>
 ```
 python vq_train.py
 ```
+<h5>Viewing Results</h5>
+<img src='https://user-images.githubusercontent.com/48815706/83919539-a57dad80-a72f-11ea-9ee9-c771d94362bf.png'>
+```
+python test_results.py --operation=view_samples --plot_type=grid
+```
+or
+```
+python test_results.py --operation=view_samples --plot_type=single
+```
+<h5>Creating Images from Test Set</h5>
+```
+python test_results.py --operation=reconstruct_test
+```
+<p>Notes: for image segmentation, consider changes the loss function to an IoU calculation, the network's final activation. You may also need data processing if there are multiple segmentation classes.</p>
