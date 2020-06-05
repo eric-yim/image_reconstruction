@@ -1,0 +1,9 @@
+{
+    "main_channel": 128,
+    "residual_hiddens": 32,
+    "num_res_blocks": 2,
+    "embed_dim": 64,
+    "n_embed": 512,
+    "commitment_cost": 0.25,
+    "decay": 0.99
+}
