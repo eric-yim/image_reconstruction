@@ -1,5 +1,4 @@
-# Image Reconstruction Network
-TF 2.0 Implementation of VQVAE
+# TF 2.0 Implementation of VQVAE
 
 See https://arxiv.org/abs/1906.00446
 
